@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<style>
+		h2{
+			color: green;
+			font-size: 15px;
+		}
+	
+	</style>
+</head>
+<body>
+	<h1>
+		<form action="/action_page.php">
+		Nome:
+		<input type="text" name="Nome">
+		<br>
+		Senha:
+		<input type="password" name="Senha">
+		<br>
+	</h1>
+
+	<h2>
+		Telefone:
+		<input type="tel" name="Telefone">
+		<br>
+		Email:
+		<input type="email" name="email">
+		<br>
+		Sexo:<br>
+			<input type="radio" name="gender">
+			Masculino<br>
+			<input type="radio" name="gender">
+			Feminino<br>
+			<input type="radio" name="gender">
+			Outros<br></br>
+	</h2>	
+	<h3 style="color:blue; font-size: 15px;">	
+		Idade:
+		<input type="number" name="quantity">
+		<br></br>
+		Curso:<br>
+		<input type="checkbox" name="vehicle1" value="Sistemas">Sistemas<br>
+		<input type="checkbox" name="vehicle2" value="Redes">Redes<br>
+		<input type="checkbox" name="vehicle3" value="Engenharia">Engenharia<br></br>
+		Voce gosta da sua turma
+		<input type="range" name="satisfacao" min="1" max="100">
+	</h3>	
+		<br></br>
+		<input type="submit" value="Enviar">	
+	</form>
+</body>
+</html>
